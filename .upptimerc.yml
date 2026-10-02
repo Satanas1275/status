@@ -49,7 +49,7 @@ sites:
 status-website:
   cname: status.rocknite-studio.com
   name: ROCKNITE-STUDIO Status
-  introTitle: "**ROCKNITE-STUDIO** - état des services"
+  introTitle: "**ROCKNITE-STUDIO** - test état des services"
   introMessage: Statut en temps réel, vérifié toutes les 5 minutes.
   navbar:
     - title: Status
