@@ -1,56 +1,60 @@
 owner: Satanas1275
 repo: status
 
+# Catégories : le préfixe avant " · " dans le nom définit le groupe
+# (affiché en sections sur la page web et dans le README).
+# Gardez les sites d'une même catégorie côte à côte.
 sites:
-  # --- Sites / apps (check simple) ---
-  - name: Site principal
+  # --- Web ---
+  - name: Web · Site principal
     url: https://rocknite-studio.com
-  - name: Compte
+  - name: Web · Compte
     url: https://account.rocknite-studio.com
-  - name: ROCKNITE ONLINE
-    url: https://online.rocknite-studio.com
-  - name: Panel
-    url: https://panel.rocknite-studio.com
-  - name: Wiki
+  - name: Web · Wiki
     url: https://wiki.rocknite-studio.com
-  - name: Leaderboard
+  - name: Web · Leaderboard
     url: https://leaderboard.rocknite-studio.com
-  - name: Nodes
-    url: https://nodes.rocknite-studio.com
-    expectedStatusCodes: [200, 401, 403, 404]
-  - name: Minecraft (mc)
-    url: https://mc.rocknite-studio.com
-
-  # --- CDN ---
-  - name: CDN
+  - name: Web · CDN
     url: https://cdn.rocknite-studio.com/status
     __dangerous__body_down_if_text_missing: '"status":"ok"'
 
-  # --- API : global + détail par service ---
-  - name: API
+  # --- API ---
+  - name: API · Global
     url: https://api.rocknite-studio.com/status
     __dangerous__body_down_if_text_missing: '"status":"ok"'
-  - name: API - Auth
+  - name: API · Auth
     url: https://api.rocknite-studio.com/status
     __dangerous__body_down_if_text_missing: '"auth":"running"'
-  - name: API - Catalog
+  - name: API · Catalog
     url: https://api.rocknite-studio.com/status
     __dangerous__body_down_if_text_missing: '"catalog":"running"'
-  - name: API - Wallet
+  - name: API · Wallet
     url: https://api.rocknite-studio.com/status
     __dangerous__body_down_if_text_missing: '"wallet":"running"'
 
-  # --- Online services ---
-  - name: Online Services
+  # --- ROCKNITE ONLINE ---
+  - name: ROCKNITE ONLINE · Jeu
+    url: https://online.rocknite-studio.com
+  - name: ROCKNITE ONLINE · Services
     url: https://online-services.rocknite-studio.com/status
     __dangerous__body_down_if_text_missing: '"online":"running"'
     __dangerous__body_degraded: '"status":"degraded"'
+  - name: ROCKNITE ONLINE · Nodes
+    url: https://nodes.rocknite-studio.com
+    expectedStatusCodes: [200, 401, 403, 404]
+
+  # --- Minecraft ---
+  - name: Minecraft · mc
+    url: https://mc.rocknite-studio.com
 
 status-website:
   cname: status.rocknite-studio.com
   name: ROCKNITE-STUDIO Status
   introTitle: "**ROCKNITE-STUDIO** - test état des services"
   introMessage: Statut en temps réel, vérifié toutes les 5 minutes.
+  # Regroupe les services par catégorie sur la page (voir assets/categories.js)
+  scripts:
+    - src: /categories.js
   navbar:
     - title: Status
       href: /
