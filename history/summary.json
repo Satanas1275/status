@@ -12,7 +12,7 @@
     "uptimeYear": "100.00%",
     "time": 634,
     "timeDay": 701,
-    "timeWeek": 634,
+    "timeWeek": 631,
     "timeMonth": 634,
     "timeYear": 634,
     "dailyMinutesDown": {}
@@ -30,7 +30,7 @@
     "uptimeYear": "100.00%",
     "time": 565,
     "timeDay": 602,
-    "timeWeek": 565,
+    "timeWeek": 557,
     "timeMonth": 565,
     "timeYear": 565,
     "dailyMinutesDown": {}
@@ -40,17 +40,17 @@
     "url": "https://wiki.rocknite-studio.com",
     "icon": "https://icons.duckduckgo.com/ip3/wiki.rocknite-studio.com.ico",
     "slug": "web-wiki",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 538,
-    "timeDay": 391,
-    "timeWeek": 538,
-    "timeMonth": 538,
-    "timeYear": 538,
+    "time": 541,
+    "timeDay": 413,
+    "timeWeek": 546,
+    "timeMonth": 541,
+    "timeYear": 541,
     "dailyMinutesDown": {}
   },
   {
@@ -65,8 +65,8 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 581,
-    "timeDay": 566,
-    "timeWeek": 581,
+    "timeDay": 585,
+    "timeWeek": 577,
     "timeMonth": 581,
     "timeYear": 581,
     "dailyMinutesDown": {}
@@ -84,7 +84,7 @@
     "uptimeYear": "100.00%",
     "time": 569,
     "timeDay": 654,
-    "timeWeek": 569,
+    "timeWeek": 561,
     "timeMonth": 569,
     "timeYear": 569,
     "dailyMinutesDown": {}
@@ -102,7 +102,7 @@
     "uptimeYear": "100.00%",
     "time": 550,
     "timeDay": 486,
-    "timeWeek": 550,
+    "timeWeek": 543,
     "timeMonth": 550,
     "timeYear": 550,
     "dailyMinutesDown": {}
@@ -120,7 +120,7 @@
     "uptimeYear": "100.00%",
     "time": 452,
     "timeDay": 473,
-    "timeWeek": 452,
+    "timeWeek": 445,
     "timeMonth": 452,
     "timeYear": 452,
     "dailyMinutesDown": {}
@@ -138,7 +138,7 @@
     "uptimeYear": "100.00%",
     "time": 368,
     "timeDay": 228,
-    "timeWeek": 368,
+    "timeWeek": 414,
     "timeMonth": 368,
     "timeYear": 368,
     "dailyMinutesDown": {}
@@ -156,7 +156,7 @@
     "uptimeYear": "100.00%",
     "time": 368,
     "timeDay": 403,
-    "timeWeek": 368,
+    "timeWeek": 409,
     "timeMonth": 368,
     "timeYear": 368,
     "dailyMinutesDown": {}
@@ -174,7 +174,7 @@
     "uptimeYear": "100.00%",
     "time": 590,
     "timeDay": 582,
-    "timeWeek": 590,
+    "timeWeek": 595,
     "timeMonth": 590,
     "timeYear": 590,
     "dailyMinutesDown": {}
@@ -192,7 +192,7 @@
     "uptimeYear": "100.00%",
     "time": 459,
     "timeDay": 530,
-    "timeWeek": 459,
+    "timeWeek": 484,
     "timeMonth": 459,
     "timeYear": 459,
     "dailyMinutesDown": {}
@@ -210,7 +210,7 @@
     "uptimeYear": "100.00%",
     "time": 521,
     "timeDay": 538,
-    "timeWeek": 521,
+    "timeWeek": 504,
     "timeMonth": 521,
     "timeYear": 521,
     "dailyMinutesDown": {}
@@ -228,7 +228,7 @@
     "uptimeYear": "100.00%",
     "time": 561,
     "timeDay": 545,
-    "timeWeek": 561,
+    "timeWeek": 527,
     "timeMonth": 561,
     "timeYear": 561,
     "dailyMinutesDown": {}
